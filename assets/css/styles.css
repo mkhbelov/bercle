@@ -74,6 +74,14 @@ body a {
   border: 0;
   outline: none;
 }
+body #header {
+  width: 100%;
+  height: 248px;
+}
+body #footer {
+  width: 100%;
+  height: 184px;
+}
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
