@@ -9,7 +9,7 @@ $(document).ready(function ( ) {
         var PageHeight = $(window).height();
         var HeaderHeight = $('#header').height();
         var FooterHeight = $('#footer').height();
-        var SiteHeight = PageHeight - HeaderHeight - FooterHeight;
+        var SiteHeight = PageHeight - HeaderHeight - FooterHeight + 40;
         $('#site').css('min-height', SiteHeight);
     }
 
