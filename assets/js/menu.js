@@ -15,6 +15,15 @@ $(document).ready(function () {
         }, this), 100));
     });
 
+    $('#menu-left li').hover(function () {
+        clearTimeout($.data(this, 'timer'));
+        $(this).children('ul').slideDown(200);
+    }, function () {
+        $.data(this, 'timer', setTimeout($.proxy(function () {
+            $(this).children('ul').slideUp(200);
+        }, this), 100));
+    });
+
 });
 
 
