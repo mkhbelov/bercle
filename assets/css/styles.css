@@ -139,12 +139,64 @@ body #site h1 {
   font-size: 30px;
   color: #000000;
   font-weight: normal;
+  margin-bottom: 40px;
 }
 body #site h2 {
   font-size: 20px;
   color: #000000;
   font-weight: normal;
   margin-bottom: 10px;
+}
+body #site .content {
+  font-size: 14px;
+  line-height: 20px;
+}
+body #site .content p {
+  margin-bottom: 15px;
+}
+body #site .content p a {
+  color: #1a81d6;
+  border-bottom: 1px solid #1a81d6;
+}
+body #site .content p a:hover {
+  color: #422f7b;
+  border-bottom: 1px solid #422f7b;
+}
+body #site .content p.ph2 {
+  font-size: 20px;
+  color: #000000;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+body #site .content ul {
+  margin: 0 0 20px 25px;
+}
+body #site .content ul li {
+  list-style: disc;
+}
+body #site .content ol {
+  margin: 0 0 20px 25px;
+}
+body #site .content ol li {
+  list-style: decimal;
+}
+body #site .content table {
+  font-size: 14px;
+}
+body #site .content table tr {
+  border-bottom: 2px solid #e2e2e2;
+}
+body #site .content table tr:last-child,
+body #site .content table tr:first-child {
+  border-bottom: none;
+}
+body #site .content table tr td,
+body #site .content table tr th {
+  padding: 5px;
+}
+body #site .content table tr th {
+  color: #ffffff;
+  background: #aeaeae;
 }
 body #site p.ph2 {
   font-size: 20px;

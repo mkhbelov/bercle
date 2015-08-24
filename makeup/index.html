@@ -21,11 +21,13 @@ and open the template in the editor.
         <link rel="stylesheet" href="/assets/css/960.css">
         <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="/assets/css/lightbox.css" type="text/css"/>
+        <link rel="stylesheet" href="/assets/css/coin-slider-styles.css" type="text/css"/>
         <link rel="stylesheet" href="/assets/css/styles.css">
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
         <script type="text/javascript" src="/assets/js/lightbox.js"></script>
         <script src="/assets/js/menu.js" type="text/javascript"></script>
+        <script type="text/javascript" src="/assets/js/coin-slider.js"></script>
         <script src="/assets/js/local.js" type="text/javascript"></script>
     </head>
     <body>
@@ -61,7 +63,7 @@ and open the template in the editor.
                         <form class="search">
                             <input type="text" value="Поиск на сайте">
                             <button><i class="fa fa-search"></i></button>
-                             <div class="clear"></div>
+                            <div class="clear"></div>
                         </form>
                     </div>
                     <div class="clear"></div>
@@ -191,6 +193,97 @@ and open the template in the editor.
                         Шелковый шарф
                     </div>
                     <h1>Шелковый шарф</h1>
+
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            $('#coin-slider').coinslider({width: 688, height: 350});
+                        });
+                    </script>
+
+                    <div id='coin-slider'>
+                        <a href="/assets/img/temp/2.jpg">
+                            <img src='/assets/img/temp/2.jpg' >
+
+                            <span>
+                                <span class="slider-h">СУПЕРАКЦИЯ! ТОЛЬКО СЕГОДНЯ!</span><br>
+                                Два рукоделия по цене одного! Чтобы скачать изображение для рабочего стола, 
+                                нажмите на ней правой кнопкой мыши и выберите пункт. Два рукоделия по цене одного! 
+                                Чтобы скачать изображение для рабочего стола, 
+                                нажмите на ней правой кнопкой мыши и выберите пункт
+
+                            </span>
+                        </a>
+
+                        <a href="/assets/img/temp/2.jpg">
+                            <img src='/assets/img/temp/1.jpg' >
+
+                            <span>
+                                <span class="slider-h">СУПЕРАКЦИЯ!</span><br>
+                                Два рукоделия по цене одного! Чтобы скачать изображение для рабочего стола, 
+                                нажмите на ней правой кнопкой мыши и выберите пункт. Два рукоделия по цене одного! 
+                                Чтобы скачать изображение для рабочего стола, 
+                                нажмите на ней правой кнопкой мыши и выберите пункт
+
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="content">
+                        <p>Каждый день мы работаем над улучшением качества и сроков доставки, по автоматизации и повышению удобства оплаты 
+                            <a href="">Ваших заказов</a>. Ваши претензии, отзывы, пожелания и предложения оставляйте, пожалуйста, 
+                            на нашем форуме или по e-mail. Ваши претензии, отзывы, пожелания и предложения оставляйте, пожалуйста, 
+                            на нашем форуме или по e-mail. Ваши претензии, отзывы, пожелания и предложения оставляйте, пожалуйста, 
+                            на нашем форуме или по e-mail.
+                        </p>
+
+                        <p>Каждый день мы работаем над улучшением качества и сроков доставки, по автоматизации и 
+                            повышению удобства оплаты Ваших заказов. Ваши претензии, отзывы, пожелания и предложения 
+                            оставляйте, пожалуйста, на нашем форуме или по e-mail <a href="mailto:shop@bergle.ru">shop@bergle.ru</a>
+                        </p>
+
+                        <p class="ph2">Таблица заказов</p>
+
+                        <table>
+                            <tr>
+                                <th>Когда сделан заказ</th>
+                                <th>Когда доставим</th>
+                            </tr>
+                            <tr>
+                                <td>понедельник до 21.00</td>
+                                <td>среда с 9.00 до 18.00</td>
+                            </tr>
+                            <tr>
+                                <td>понедельник до 21.00</td>
+                                <td>среда с 9.00 до 18.00</td>
+                            </tr>
+                            <tr>
+                                <td>понедельник до 21.00</td>
+                                <td>среда с 9.00 до 18.00</td>
+                            </tr>
+                        </table> 
+                        
+                        <p>Каждый день мы работаем над улучшением качества и сроков доставки, по автоматизации и 
+                            повышению удобства оплаты Ваших заказов. Ваши претензии, отзывы, пожелания и предложения 
+                            оставляйте, пожалуйста, на нашем форуме или по e-mail.
+                        </p>
+                        
+                        <p class="ph2">Список пунктов:</p>
+
+                        <ul>
+                            <li>мы работаем над улучшением качества и сроков доставки;</li>
+                            <li>претензии, отзывы, пожелания;</li>
+                            <li>мы открыты для всех предложений.</li>
+                        </ul>
+
+                        <p class="ph2">Нумерация пунктов:</p>
+                        
+                        <ol>
+                            <li>первый пункт (рукоделие);</li>
+                            <li>второй пункт (производство);</li>
+                            <li>третий пункт.</li>
+                        </ol>
+
+                    </div>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -227,9 +320,9 @@ and open the template in the editor.
                     </div>
                 </div>
                 <div class="grid_4 omega">
-                        <form class="search">
+                    <form class="search">
                         <input type="text" value="Поиск на сайте">
-                         <button><i class="fa fa-search"></i></button>
+                        <button><i class="fa fa-search"></i></button>
                         <div class="clear"></div>
                     </form>
                 </div>
