@@ -153,6 +153,16 @@ body #site .content {
 body #site .content p {
   margin-bottom: 15px;
 }
+body #site .content p img {
+  background-color: #ffffff;
+  border: 1px solid #CCCCCC;
+  padding: 5px;
+  margin: 0 20px 10px 0;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.43);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.43);
+  box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.43);
+}
 body #site .content p a {
   color: #1a81d6;
   border-bottom: 1px solid #1a81d6;
