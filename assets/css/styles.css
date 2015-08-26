@@ -213,6 +213,11 @@ body #site p.ph2 {
   font-weight: normal;
   margin-bottom: 10px;
 }
+body #site a.ah2 {
+  font-size: 20px;
+  color: #000000;
+  font-weight: normal;
+}
 body #site a.banner {
   display: block;
   background-color: #ffffff;
@@ -251,6 +256,25 @@ body #site .sep.left-sep {
   width: 157px;
   height: 28px;
   background: url('/assets/img/design/left-sep.png');
+}
+body #site .sort-links {
+  border: 1px solid #e1e2e4;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+body #site .sort-links p {
+  display: inline-block;
+  padding: 6px 20px;
+  color: #a5a5a5;
+}
+body #site .sort-links a {
+  display: inline-block;
+  padding: 6px 20px;
+  color: #000000;
+}
+body #site .sort-links a:hover {
+  color: #ffffff;
+  background-color: #a5a5a5;
 }
 body #site .products .product {
   height: 320px;
@@ -322,6 +346,48 @@ body #site .products .product a.to-basket {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c742c8', endColorstr='#f79635a3', GradientType=0);
   /* IE6-8 */
+}
+body #site .products a.all-products {
+  display: block;
+  margin: 80px auto;
+  width: 40px;
+  height: 40px;
+  color: #cccccc;
+  font-size: 40px;
+}
+body #site .products a.all-products:hover {
+  color: #999999;
+}
+body #site .pagination {
+  border-top: 3px solid #cccccc;
+  padding-top: 14px;
+}
+body #site .pagination ul {
+  margin: 0 auto;
+  font-size: 13px;
+}
+body #site .pagination ul li {
+  display: inline-block;
+  padding-left: 0px;
+  margin-left: 4px;
+  background: none;
+}
+body #site .pagination ul li.disabled {
+  padding: 10px;
+  color: #cccccc;
+}
+body #site .pagination ul li.active a {
+  color: #ffffff;
+  background-color: #999999;
+}
+body #site .pagination ul li a {
+  display: inline-block;
+  padding: 10px;
+  color: #999999;
+}
+body #site .pagination ul li a:hover {
+  background-color: #cccccc;
+  color: #ffffff;
 }
 body #footer {
   width: 100%;
