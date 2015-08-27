@@ -1,0 +1,17 @@
+.not-found {
+  font-size: 19px;
+  margin-top: 50px;
+  font-size: 40px;
+}
+.not-found h1 {
+  color: #A1A1A1  !important;
+  margin-bottom: 0px !important;
+  font-size: 50px !important;
+}
+.not-found .logo {
+  display: block;
+  width: 312px;
+  height: 160px;
+  background: url('assets/img/design/logo.png') no-repeat;
+  opacity: 0.5;
+}
